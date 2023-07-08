@@ -6,6 +6,7 @@ import PollForm from '../poll/poll_form.vue'
 import Attachment from '../attachment/attachment.vue'
 import Gallery from 'src/components/gallery/gallery.vue'
 import StatusContent from '../status_content/status_content.vue'
+import localeService from '../../services/locale/locale.service.js'
 import fileTypeService from '../../services/file_type/file_type.service.js'
 import { findOffset } from '../../services/offset_finder/offset_finder.service.js'
 import { reject, map, uniqBy, debounce } from 'lodash'
@@ -149,7 +150,7 @@ const PostStatusForm = {
       poll: {},
       mediaDescriptions: {},
       visibility: this.suggestedVisibility(),
-      language: interfaceLanguage,
+      language: localeService.internalToBrowserLocale(interfaceLanguage),
       contentType
     }
 
@@ -164,7 +165,7 @@ const PostStatusForm = {
         poll: this.statusPoll || {},
         mediaDescriptions: this.statusMediaDescriptions || {},
         visibility: this.statusScope || this.suggestedVisibility(),
-        language: this.statusLanguage || interfaceLanguage,
+        language: this.statusLanguage || localeService.internalToBrowserLocale(interfaceLanguage),
         contentType: statusContentType
       }
     }
