@@ -19,6 +19,7 @@ const messages = {
   it: require('../lib/notification-i18n-loader.js!./it.json'),
   ja: require('../lib/notification-i18n-loader.js!./ja_pedantic.json'),
   ja_easy: require('../lib/notification-i18n-loader.js!./ja_easy.json'),
+  ja_youjyo: require('../lib/notification-i18n-loader.js!./ja_youjyo.json'),
   ko: require('../lib/notification-i18n-loader.js!./ko.json'),
   nb: require('../lib/notification-i18n-loader.js!./nb.json'),
   nl: require('../lib/notification-i18n-loader.js!./nl.json'),
