@@ -13,9 +13,9 @@ var versionRequirements = [
     versionRequirement: packageConfig.engines.node
   },
   {
-    name: 'npm',
-    currentVersion: exec('npm --version'),
-    versionRequirement: packageConfig.engines.npm
+    name: 'pnpm',
+    currentVersion: exec('pnpm --version'),
+    versionRequirement: packageConfig.engines.pnpm
   }
 ]
 

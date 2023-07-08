@@ -22,17 +22,17 @@ To use Akkoma-FE in Akkoma, use the [frontend](https://docs.akkoma.dev/stable/ad
 
 ``` bash
 # install dependencies
-npm install -g yarn
+pnpm install -g yarn
 yarn
 
 # serve with hot reload at localhost:8080
-npm run dev
+pnpm run dev
 
 # build for production with minification
-npm run build
+pnpm run build
 
 # run unit tests
-npm run unit
+pnpm run unit
 ```
 
 # For Contributors:
