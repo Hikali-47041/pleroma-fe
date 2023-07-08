@@ -5,8 +5,8 @@ import _ from 'lodash'
 const specialLanguageCodes = {
   'ja_easy': 'ja',
   'ja_youjyo': 'ja',
-  'zh_Hant': 'zh-HANT',
-  'zh': 'zh-Hans'
+  'zh_Hant': 'zh'
+  // 'zh': 'zh-Hans'
 }
 
 const internalToBrowserLocale = code => specialLanguageCodes[code] || code
