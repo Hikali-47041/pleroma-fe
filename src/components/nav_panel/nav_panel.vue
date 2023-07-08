@@ -127,10 +127,7 @@
     padding: 0;
 
     &:first-child .menu-item {
-      border-top-right-radius: $fallback--panelRadius;
-      border-top-right-radius: var(--panelRadius, $fallback--panelRadius);
-      border-top-left-radius: $fallback--panelRadius;
-      border-top-left-radius: var(--panelRadius, $fallback--panelRadius);
+      border: none;
     }
 
     &:last-child .menu-item {
@@ -154,6 +151,7 @@
     width: 100%;
     color: $fallback--link;
     color: var(--link, $fallback--link);
+    transition: 0.32s;
 
     &:hover {
       background-color: $fallback--lightBg;
@@ -189,9 +187,10 @@
   }
 
   .timelines-background {
-    padding: 0 0 0 0.6em;
+    padding: 0;
     background-color: $fallback--lightBg;
     background-color: var(--selectedMenu, $fallback--lightBg);
+    background-color: transparent;
     border-top: 1px solid;
     border-color: $fallback--border;
     border-color: var(--border, $fallback--border);
