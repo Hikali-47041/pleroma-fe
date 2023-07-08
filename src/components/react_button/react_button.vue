@@ -28,7 +28,7 @@
   </Popover>
 </template>
 
-<script src="./react_button.js" ></script>
+<script src="./react_button.js"></script>
 
 <style lang="scss">
 @import '../../_variables.scss';

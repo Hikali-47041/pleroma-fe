@@ -45,7 +45,7 @@
   </Popover>
 </template>
 
-<script src="./user_list_popover.js" ></script>
+<script src="./user_list_popover.js"></script>
 
 <style lang="scss">
 @import '../../_variables.scss';

@@ -35,7 +35,7 @@
   </Popover>
 </template>
 
-<script src="./status_popover.js" ></script>
+<script src="./status_popover.js"></script>
 
 <style lang="scss">
 @import '../../_variables.scss';

@@ -133,7 +133,7 @@
                   <FollowedTagCard :tag="item" />
                 </template>
                 <template #empty>
-                  {{ $t('user_card.not_following_any_hashtags')}}
+                  {{ $t('user_card.not_following_any_hashtags') }}
                 </template>
               </FollowedTagList>
             </div>

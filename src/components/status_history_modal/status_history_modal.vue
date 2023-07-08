@@ -19,7 +19,7 @@
             :statusoid="status"
             :isPreview="true"
             class="conversation-status status-fadein panel-body"
-        />
+          />
         </div>
       </div>
     </div>

@@ -24,7 +24,7 @@
         class="button-default"
         @click.stop="updateReportState('open')"
       >
-          {{ $t('moderation.reports.reopen') }}
+        {{ $t('moderation.reports.reopen') }}
       </button>
     </div>
     <div
@@ -35,7 +35,8 @@
         <div v-if="content">
           {{ decode(content) }}
         </div>
-        <i v-else class="faint">
+        <i v-else 
+           class="faint">
           {{ $t('moderation.reports.no_content') }}
         </i>
         <div class="report-author">

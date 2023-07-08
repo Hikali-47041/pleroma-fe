@@ -196,7 +196,7 @@
 
           <div
             class="language-selector"
-            >
+          >
             <Select
               id="post-language"
               v-model="newStatus.language"

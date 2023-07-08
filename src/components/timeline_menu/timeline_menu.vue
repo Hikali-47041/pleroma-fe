@@ -32,7 +32,7 @@
   </Popover>
 </template>
 
-<script src="./timeline_menu.js" ></script>
+<script src="./timeline_menu.js"></script>
 
 <style lang="scss">
 @import '../../_variables.scss';
