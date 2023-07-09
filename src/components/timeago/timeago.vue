@@ -7,14 +7,16 @@
     <template
       v-if="withDirection"
     >
-      {{
+      {{ time.toLocaleString() }}
+      ({{ 
         relativeTime.direction === '' ?
           $tc(relativeTime.key, relativeTime.num, [relativeTime.num]) :
           $t(relativeTime.direction, [$tc(relativeTime.key, relativeTime.num, [relativeTime.num])])
-      }}
+      }})
     </template>
     <template v-else>
       {{ $tc(relativeTime.key, relativeTime.num, [relativeTime.num]) }}
+      {{ time.toLocaleString() }}
     </template>
   </time>
 </template>
