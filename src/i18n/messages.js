@@ -24,6 +24,7 @@ const loaders = {
   it: () => import('./it.json'),
   ja: () => import('./ja_pedantic.json'),
   ja_easy: () => import('./ja_easy.json'),
+  ja_kawaii: () => import('./ja_kawaii.json'),
   ja_osanago: () => import('./ja_osanago.json'),
   ko: () => import('./ko.json'),
   nb: () => import('./nb.json'),

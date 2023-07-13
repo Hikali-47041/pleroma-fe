@@ -1062,7 +1062,6 @@
         "show_new": "Show new",
         "socket_broke": "Realtime connection lost: CloseEvent code {0}",
         "socket_reconnected": "Realtime connection established",
-        "follow_tag": "Follow hashtag",
         "unfollow_tag": "Unfollow hashtag",
         "up_to_date": "Up-to-date"
     },

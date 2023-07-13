@@ -4,6 +4,7 @@ import _ from 'lodash'
 
 const specialLanguageCodes = {
   'ja_easy': 'ja',
+  'ja_kawaii': 'ja',
   'ja_osanago': 'ja',
   'zh_Hant': 'zh'
   // 'zh': 'zh-Hans'
@@ -16,6 +17,7 @@ const internalToBackendLocale = code => internalToBrowserLocale(code).replace('_
 const getLanguageName = (code) => {
   const specialLanguageNames = {
     'ja_easy': 'やさしいにほんご',
+    'ja_kawaii': 'にほんご(かわいい)',
     'ja_osanago': 'にほんご(おさなご)',
     'zh': '简体中文',
     'zh_Hant': '繁體中文'
