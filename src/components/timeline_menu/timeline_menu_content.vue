@@ -62,7 +62,6 @@
           :title="$t('nav.twkn_timeline_description')"
           :aria-label="$t('nav.twkn_timeline_description')"
         >{{ $t("nav.twkn") }}</span>
-
       </router-link>
     </li>
     <li v-if="currentUser">
