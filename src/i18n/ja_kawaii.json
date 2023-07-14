@@ -399,8 +399,8 @@
             "direct": "ダイレクト: メンションされたユーザーだけに届くよ",
             "local": "ローカル限定: このインスタンス内だけに届くよ",
             "private": "フォロワー限定: フォロワーだけに届くよ",
-            "public": "公開: 公開タイムラインに届くよ",
-            "unlisted": "未収載: 公開タイムラインに届きないよ"
+            "public": "公開: ローカルタイムラインと、連合タイムラインにも届くよ",
+            "unlisted": "未収載: ローカルタイムラインと、連合タイムラインには届けないよ"
         },
         "scope_notice": {
             "local": "このインスタンスのユーザーしか見えないよ",
@@ -464,7 +464,7 @@
         "add_alias_error": "エイリアスを追加できなかったよ…: {error}",
         "add_backup": "バックアップを作る",
         "add_backup_error": "バックアップを作成できなかったよ…: {error}",
-        "added_alias": "エイリアス名を参加したよ",
+        "added_alias": "エイリアスを追加したよ",
         "added_backup": "バックアップを作ったよ",
         "allow_following_move": "フォロー中のアカウントが引っ越したとき、自動フォローを許可する",
         "always_show_post_button": "投稿ボタンを常に表示",
@@ -527,7 +527,7 @@
         "delete_account_description": "あなたのデータが消えて、アカウントが使えなくなるよ。",
         "delete_account_error": "アカウントを消すことが、できなかったかもしれないよ。インスタンスのかんりしゃに、連絡してねっ。",
         "delete_account_instructions": "本当にアカウントを消してもいいなら、パスワードを入力してねっ。",
-        "disable_sticky_headers": "ヘッダーを追従させないよ",
+        "disable_sticky_headers": "ヘッダーがついてこないようにするよ",
         "discoverable": "検索エンジンなどのサービスでこのアカウントを見つけること(クロール)を許可する",
         "domain_mutes": "ドメイン",
         "download_backup": "ダウンロード",
@@ -536,7 +536,7 @@
         "enable_web_push_notifications": "ウェブプッシュ通知を許可する",
         "enter_current_password_to_confirm": "あなたのアイデンティティを証明するため、現在のパスワードを入力してねっ",
         "expert_mode": "詳細設定を表示",
-        "expire_posts_enabled": "投稿の自動消す",
+        "expire_posts_enabled": "投稿を自動で消す",
         "expire_posts_input_placeholder": "日数",
         "export_theme": "保存",
         "file_export_import": {
@@ -544,7 +544,7 @@
             "backup_settings": "設定をファイルにバックアップする",
             "backup_settings_theme": "テーマを含む設定をファイルにバックアップする",
             "errors": {
-                "file_slightly_new": "ファイルのマイナーバージョンが異なり、一部の設定が読み込まれないことがあるよ",
+                "file_slightly_new": "ファイルのマイナーバージョンが違って、一部の設定が読み込まれないことがあるよ",
                 "file_too_new": "非対応: Pleroma-FE v{feMajor}は古すぎて、v{fileMajor}の設定を読み込めないよ…",
                 "file_too_old": "非対応: 設定ファイル v{fileMajor}は古すぎて、Pleroma-FE v{feMajor}が読み込めないよ…",
                 "invalid_file": "これはPleromaの設定をバックアップしたファイルじゃないよ…"
@@ -742,7 +742,7 @@
         "settings_profile_in_use": "利用されてるよ",
         "settings_profile_use": "利用",
         "settings_profiles_refresh": "リロード",
-        "settings_profiles_show": "全プロファイルを表示",
+        "settings_profiles_show": "全てのプロファイルを表示",
         "settings_profiles_unshow": "隠す",
         "show_admin_badge": "\"かんりしゃ\"のバッジを見せる",
         "show_moderator_badge": "\"モデレーター\"のバッジを見せる",
