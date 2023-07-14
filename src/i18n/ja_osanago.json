@@ -133,15 +133,15 @@
         "peek": "かくす",
         "retry": "もういちどためしてね",
         "role": {
-            "admin": "かんりしゃ",
-            "moderator": "モデレーター"
+            "admin": "Admin",
+            "moderator": "Moderator"
         },
         "scope_in_timeline": {
             "direct": "ダイレクト",
             "local": "ローカルげんてい: このインスタンスのユーザーだけがみえるよ",
             "private": "フォロワーげんてい",
             "public": "こうかい",
-            "unlisted": "未収蔵"
+            "unlisted": "Unlisted"
         },
         "show_less": "たたむ",
         "show_more": "もっとみる",

@@ -1,7 +1,7 @@
 {
     "about": {
         "bubble_instances": "ローカルバブルのインスタンス",
-        "bubble_instances_description": "かんりしゃがおすすめしてるインスタンス",
+        "bubble_instances_description": "管理者がおすすめしてるインスタンス",
         "mrf": {
             "federation": "連合",
             "keyword": {
@@ -133,8 +133,8 @@
         "peek": "隠す",
         "retry": "もういちど試してね",
         "role": {
-            "admin": "かんりしゃ",
-            "moderator": "モデレーター"
+            "admin": "Admin",
+            "moderator": "Moderator"
         },
         "scope_in_timeline": {
             "direct": "ダイレクト",
@@ -304,7 +304,7 @@
         "back": "戻る",
         "bookmarks": "ブックマーク",
         "bubble_timeline": "バブルタイムライン",
-        "bubble_timeline_description": "かんりしゃがおすすめしてるインスタンスからの投稿",
+        "bubble_timeline_description": "管理者がおすすめしてるインスタンスからの投稿",
         "chats": "チャット",
         "dms": "ダイレクトメッセージ",
         "friend_requests": "フォローリクエスト",
@@ -345,9 +345,9 @@
         "forgot_password": "パスワードを忘れたの?",
         "instruction": "メールアドレスまたはユーザー名を入力してねっ。パスワードをリセットするためのリンクを送るよ。",
         "password_reset": "パスワードリセット",
-        "password_reset_disabled": "かんりしゃに連絡してねっ!",
+        "password_reset_disabled": "管理者に連絡してねっ!",
         "password_reset_required": "ログインするためにパスワードを初期化してねっ。",
-        "password_reset_required_but_mailer_is_disabled": "パスワードの初期化が必要だけど、このインスタンスではメールが使えないから、かんりしゃに連絡してねっ。",
+        "password_reset_required_but_mailer_is_disabled": "パスワードの初期化が必要だけど、このインスタンスではメールが使えないから、管理者に連絡してねっ。",
         "placeholder": "メールアドレスまたはユーザー名",
         "return_home": "ホームページに戻る",
         "too_many_requests": "試行回数の制限に達したよ。しばらく時間を置いてから再試行してねっ。"
@@ -422,7 +422,7 @@
         "new_captcha": "文字が読めないときは、画像をクリックすると、新しい画像になるよ",
         "password_confirm": "パスワードの確認",
         "reason": "登録するための目的",
-        "reason_placeholder": "このインスタンスは、新規登録を手動で受け付けてるよ。\n登録したい理由を、インスタンスのかんりしゃに教えてねっ。",
+        "reason_placeholder": "このインスタンスは、新規登録を手動で受け付けてるよ。\n登録したい理由を、インスタンスの管理者に教えてねっ。",
         "register": "登録",
         "registration": "登録",
         "request_sent": "登録リクエストを送ったよ。登録を受け入れたらメールが届くよ。",
@@ -525,7 +525,7 @@
         "default_vis": "デフォルトの公開範囲",
         "delete_account": "アカウントを消す",
         "delete_account_description": "あなたのデータが消えて、アカウントが使えなくなるよ。",
-        "delete_account_error": "アカウントを消すことが、できなかったかもしれないよ。インスタンスのかんりしゃに、連絡してねっ。",
+        "delete_account_error": "アカウントを消すことが、できなかったかもしれないよ。インスタンスの管理者に、連絡してねっ。",
         "delete_account_instructions": "本当にアカウントを消してもいいなら、パスワードを入力してねっ。",
         "disable_sticky_headers": "ヘッダーがついてこないようにするよ",
         "discoverable": "検索エンジンなどのサービスでこのアカウントを見つけること(クロール)を許可する",
@@ -744,7 +744,7 @@
         "settings_profiles_refresh": "リロード",
         "settings_profiles_show": "全てのプロファイルを表示",
         "settings_profiles_unshow": "隠す",
-        "show_admin_badge": "\"かんりしゃ\"のバッジを見せる",
+        "show_admin_badge": "\"admin\"のバッジを見せる",
         "show_moderator_badge": "\"モデレーター\"のバッジを見せる",
         "show_nav_shortcuts": "ページ上にショートカットを追加",
         "show_panel_nav_shortcuts": "ページ上にタイムラインショートカットを追加",
@@ -1106,11 +1106,11 @@
             "disable_remote_subscription": "他のインスタンスからフォローされないようにする",
             "force_nsfw": "すべての投稿をNSFWにする",
             "force_unlisted": "サイレンス(投稿を未収載)にする",
-            "grant_admin": "かんりしゃ権限をあげる",
+            "grant_admin": "管理者権限をあげる",
             "grant_moderator": "モデレーター権限をあげる",
             "moderation": "モデレーション",
             "quarantine": "他のインスタンスからの投稿を止める",
-            "revoke_admin": "かんりしゃ権限を解除",
+            "revoke_admin": "管理者権限を解除",
             "revoke_moderator": "モデレーター権限を解除",
             "sandbox": "投稿をフォロワーだけにする",
             "strip_media": "投稿からメディアを除去する"
