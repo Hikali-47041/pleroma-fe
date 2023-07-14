@@ -1,6 +1,6 @@
 import { extractCommit } from 'src/services/version/version.service'
 
-const pleromaFeCommitUrl = 'https://akkoma.dev/AkkomaGang/pleroma-fe/commit/'
+const pleromaFeCommitUrl = 'https://github.com/Hikali-47041/pleroma-fe/commit/'
 const pleromaBeCommitUrl = 'https://akkoma.dev/AkkomaGang/akkoma/commit/'
 
 const VersionTab = {
