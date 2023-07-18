@@ -129,7 +129,7 @@
         "generic_error": "エラーになっちゃった",
         "loading": "Now Loading…",
         "more": "つづき",
-        "optional": "省略可",
+        "optional": "省略できるよ",
         "peek": "隠す",
         "retry": "もういちど試してね",
         "role": {
@@ -355,11 +355,11 @@
     "polls": {
         "add_option": "せんたくしを追加",
         "add_poll": "投票を追加",
-        "expired": "投票は {0} 前に終了したよ",
-        "expires_in": "投票は {0} で終了するよ",
+        "expired": "投票は {0} 前に終わったよ",
+        "expires_in": "投票は {0} で終わるよ",
         "expiry": "投票期間",
         "multiple_choices": "ふくすう",
-        "not_enough_options": "相異なる選択肢が不足してるよ",
+        "not_enough_options": "相異なる選択肢が足りないよ",
         "option": "せんたくし",
         "people_voted_count": "{count} 人投票",
         "single_choice": "ひとつだけ",
@@ -430,12 +430,12 @@
         "token": "招待トークン",
         "username_placeholder": "例: lain",
         "validations": {
-            "email_required": "必須",
-            "fullname_required": "必須",
+            "email_required": "必ず書いてね",
+            "fullname_required": "必ず書いてね",
             "password_confirmation_match": "パスワードが違うよ…",
-            "password_confirmation_required": "必須",
-            "password_required": "必須",
-            "username_required": "必須"
+            "password_confirmation_required": "必ず書いてね",
+            "password_required": "必ず書いてね",
+            "username_required": "必ず書いてね"
         }
     },
     "remote_user_resolver": {
@@ -658,7 +658,7 @@
         "no_blocks": "ブロックはないよ",
         "no_mutes": "ミュートはないよ",
         "no_rich_text_description": "リッチテキストを使わない",
-        "notification_blocks": "ブロックしてるユーザーからの通知は、すべて止まりるよ。",
+        "notification_blocks": "ブロックしてるユーザーからの通知は、すべて止まるよ。",
         "notification_mutes": "特定のユーザーからの通知を止めるには、ミュートしてねっ。",
         "notification_setting_block_from_strangers": "フォローしていないユーザーからの通知を拒否する",
         "notification_setting_filters": "フィルター",
@@ -987,9 +987,9 @@
         "pin": "プロフィールにピン留め",
         "pinned": "ピン留め",
         "plus_more": "ほか{number}件",
-        "redraft": "消すして編集",
-        "redraft_confirm": "消すして編集するの?",
-        "redraft_confirm_accept_button": "消すして編集",
+        "redraft": "消して編集",
+        "redraft_confirm": "消して編集するの?",
+        "redraft_confirm_accept_button": "消して編集",
         "redraft_confirm_cancel_button": "キャンセル",
         "redraft_confirm_title": "確認してねっ",
         "remove_attachment": "消す",
@@ -1009,7 +1009,7 @@
         "show_content": "もっと見る",
         "show_full_subject": "警告を見る",
         "show_only_conversation_under_this": "この投稿を返信する投稿だけ",
-        "status_deleted": "この投稿は消すされたよ",
+        "status_deleted": "この投稿は消されたよ",
         "status_unavailable": "利用できないよ",
         "thread_follow": "{numStatus}件のお返事を見る",
         "thread_follow_with_icon": "{icon} {text}",
@@ -1029,7 +1029,7 @@
     "time": {
         "in_future": "{0}で",
         "in_past": "{0}前",
-        "now": "たった今",
+        "now": "いま",
         "now_short": "なう",
         "unit": {
             "days": "{0}日",
