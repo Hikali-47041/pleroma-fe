@@ -282,7 +282,7 @@ export const parseStatus = (data) => {
 
     output.tags = data.tags
 
-    output.edited_at = data.edited_at
+    output.edited_at = new Date(data.edited_at)
 
     if (data.pleroma) {
       const { pleroma } = data
