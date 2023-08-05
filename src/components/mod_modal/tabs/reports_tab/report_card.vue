@@ -35,8 +35,7 @@
         <div v-if="content">
           {{ decode(content) }}
         </div>
-        <i v-else 
-           class="faint">
+        <i v-else class="faint">
           {{ $t('moderation.reports.no_content') }}
         </i>
         <div class="report-author">

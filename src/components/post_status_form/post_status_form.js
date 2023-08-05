@@ -150,7 +150,7 @@ const PostStatusForm = {
       poll: {},
       mediaDescriptions: {},
       visibility: this.suggestedVisibility(),
-      language: localeService.internalToBrowserLocale(interfaceLanguage),
+      language: interfaceLanguage,
       contentType
     }
 

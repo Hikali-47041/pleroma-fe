@@ -14,12 +14,13 @@
         <span
           v-if="reaction.url !== null"
         >
-          <img
+          <StillImage
             :src="reaction.url"
             :title="reaction.name"
+            :alt="reaction.name"
             class="reaction-emoji"
             height="2.55em"
-          >
+          />
           {{ reaction.count }}
         </span>
         <span v-else>
@@ -41,7 +42,7 @@
   </div>
 </template>
 
-<script src="./emoji_reactions.js"></script>
+<script src="./emoji_reactions.js" ></script>
 <style lang="scss">
 @import '../../_variables.scss';
 
