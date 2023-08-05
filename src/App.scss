@@ -593,6 +593,7 @@ option {
 }
 
 .hide-number-spinner {
+  appearance: textfield;
   -moz-appearance: textfield;
 
   &[type=number]::-webkit-inner-spin-button,
