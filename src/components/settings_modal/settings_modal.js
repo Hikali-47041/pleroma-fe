@@ -69,7 +69,7 @@ const SettingsModal = {
       this.$store.dispatch('closeSettingsModal')
     },
     logout () {
-      this.$router.replace('/main/public')
+      this.$router.replace('/main/local')
       this.$store.dispatch('closeSettingsModal')
       this.$store.dispatch('logout')
     },

@@ -30,7 +30,7 @@ export default (store) => {
     if (store.state.users.currentUser) {
       next()
     } else {
-      next(store.state.instance.redirectRootNoLogin || '/main/all')
+      next(store.state.instance.redirectRootNoLogin || '/main/federated')
     }
   }
 
@@ -40,13 +40,13 @@ export default (store) => {
       redirect: _to => {
         return (store.state.users.currentUser
           ? store.state.instance.redirectRootLogin
-          : store.state.instance.redirectRootNoLogin) || '/main/all'
+          : store.state.instance.redirectRootNoLogin) || '/main/federated'
       }
     },
-    { name: 'public-external-timeline', path: '/main/all', component: PublicAndExternalTimeline },
-    { name: 'public-timeline', path: '/main/public', component: PublicTimeline },
+    { name: 'public-external-timeline', path: '/main/federated', component: PublicAndExternalTimeline },
+    { name: 'public-timeline', path: '/main/local', component: PublicTimeline },
     { name: 'bubble-timeline', path: '/main/bubble', component: BubbleTimeline },
-    { name: 'friends', path: '/main/friends', component: FriendsTimeline, beforeEnter: validateAuthenticatedRoute },
+    { name: 'friends', path: '/main/home', component: FriendsTimeline, beforeEnter: validateAuthenticatedRoute },
     { name: 'tag-timeline', path: '/tag/:tag', component: TagTimeline },
     { name: 'bookmarks', path: '/bookmarks', component: BookmarkTimeline },
     { name: 'conversation', path: '/notice/:id', component: ConversationPage, meta: { dontScroll: true } },
@@ -62,7 +62,7 @@ export default (store) => {
     },
     { name: 'external-user-profile', path: '/users/:id', component: UserProfile, meta: { dontScroll: true } },
     { name: 'interactions', path: '/users/:username/interactions', component: Interactions, beforeEnter: validateAuthenticatedRoute },
-    { name: 'dms', path: '/users/:username/dms', component: DMs, beforeEnter: validateAuthenticatedRoute },
+    { name: 'dms', path: '/users/:username/directs', component: DMs, beforeEnter: validateAuthenticatedRoute },
     { name: 'registration', path: '/registration', component: Registration },
     { name: 'registration-request-sent', path: '/registration-request-sent', component: RegistrationRequestSent },
     { name: 'awaiting-email-confirmation', path: '/awaiting-email-confirmation', component: AwaitingEmailConfirmation },

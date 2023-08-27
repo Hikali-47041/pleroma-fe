@@ -15,7 +15,7 @@ describe('routes', () => {
   })
 
   it('root path', async () => {
-    await router.push('/main/all')
+    await router.push('/main/federated')
 
     const matchedComponents = router.currentRoute.value.matched
 

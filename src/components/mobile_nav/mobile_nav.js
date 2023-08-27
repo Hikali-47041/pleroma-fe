@@ -95,7 +95,7 @@ const MobileNav = {
       }
     },
     doLogout () {
-      this.$router.replace('/main/public')
+      this.$router.replace('/main/local')
       this.$store.dispatch('logout')
       this.hideConfirmLogout()
     },
