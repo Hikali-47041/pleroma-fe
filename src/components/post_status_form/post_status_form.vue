@@ -180,6 +180,7 @@
             :class="{ error: isOverLengthLimit }"
           >
             {{ charactersLeft }}
+            [{{ statusLength + spoilerTextLength }} / {{ statusLengthLimit }}]
           </p>
         </EmojiInput>
         <div
