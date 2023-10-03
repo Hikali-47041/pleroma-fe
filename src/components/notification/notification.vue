@@ -56,7 +56,7 @@
               <RichContent
                 class="username"
                 :title="'@'+notification.from_profile.screen_name_ui"
-                :html="notification.from_profile.name_html"
+                :html="notification.from_profile.name_html+' @'+notification.from_profile.screen_name_ui"
                 :emoji="notification.from_profile.emoji"
               />
             </bdi>
@@ -66,7 +66,7 @@
               class="username"
               :title="'@'+notification.from_profile.screen_name_ui"
             >
-              {{ notification.from_profile.name }}
+              {{ notification.from_profile.name }} {{'@'+notification.from_profile.screen_name_ui}}
             </span>
           </div>
           <div class="notification-time">
