@@ -1,7 +1,7 @@
 @import '../../_variables.scss';
 
 .notification-reaction-emoji {
-  width: 40px;
+  width: var(--emoji-size);
   display: inline-flex;
   vertical-align: middle;
   flex-direction: column;
@@ -14,7 +14,7 @@
    border-color: var(--border, $fallback--border);
    word-wrap: break-word;
    word-break: break-word;
-   --emoji-size: 14px;
+   --emoji-size: 1.3em;
 
   &:hover {
     --_still-image-img-visibility: visible;
