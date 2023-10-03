@@ -141,7 +141,7 @@
             "local": "ローカル限定: このインスタンスのユーザーだけが見えるよ",
             "private": "フォロワー限定",
             "public": "公開",
-            "unlisted": "未収蔵"
+            "unlisted": "未収載"
         },
         "show_less": "たたむ",
         "show_more": "もっと見る",
