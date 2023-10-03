@@ -51,29 +51,29 @@
         />
         <span class="notification-details">
           <div class="notification-name">
-            <!-- eslint-disable vue/no-v-html -->
-            <bdi v-if="!!notification.from_profile.name_html">
-              <router-link
+            <router-link
                 class="faint-link"
                 :title="notification.from_profile.screen_name_ui"
                 :to="userProfileLink"
-              >
-              <RichContent
-                class="username"
-                :title="'@'+notification.from_profile.screen_name_ui"
-                :html="notification.from_profile.name_html"
-                :emoji="notification.from_profile.emoji"
-              />
-              </router-link>
+            >
+            <!-- eslint-disable vue/no-v-html -->
+            <bdi v-if="!!notification.from_profile.name_html">
+                <RichContent
+                  class="username"
+                  :title="'@'+notification.from_profile.screen_name_ui"
+                  :html="notification.from_profile.name_html"
+                  :emoji="notification.from_profile.emoji"
+                />
             </bdi>
             <!-- eslint-enable vue/no-v-html -->
-            <span
-              v-else
-              class="username"
-              :title="'@'+notification.from_profile.screen_name_ui"
-            >
-              {{ notification.from_profile.name }}
-            </span>
+              <span
+                v-else
+                class="username"
+                :title="'@'+notification.from_profile.screen_name_ui"
+              >
+                {{ notification.from_profile.name }}
+              </span>
+            </router-link>
           </div>
           <div class="notification-time">
             <div
