@@ -579,7 +579,7 @@
         "hide_muted_threads": "ミュートしてるスレを隠す",
         "hide_post_stats": "投稿の統計を隠す (例: ふぁぼの数)",
         "hide_shoutbox": "Shoutboxを表示しない",
-        "hide_site_favicon": "トップバーのアイコンを隠す",
+        "hide_site_favicon": "トップバーのファビコンを隠す",
         "hide_site_name": "インスタンス名を隠す",
         "hide_threads_with_blocked_users": "ブロックしてるユーザーをメンションする投稿を隠す",
         "hide_user_stats": "ユーザーの統計を隠す (例: フォロワーの数)",
