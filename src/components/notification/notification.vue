@@ -158,10 +158,13 @@
                     class="notification-reaction-emoji"
                     :src="notification.emoji_url"
                     :name="notification.emoji"
+                    :title="notification.emoji"
+                    :alt="notification.name"
                   >
                   <span
                     v-else
                     class="emoji-reaction-emoji"
+                    :title="notification.emoji"
                   >
                     {{ notification.emoji }}
                   </span>
