@@ -50,7 +50,7 @@
           :bordered="true"
         />
         <span class="notification-details">
-          <div class="name-and-action">
+          <div class="notification-name">
             <!-- eslint-disable vue/no-v-html -->
             <bdi v-if="!!notification.from_profile.name_html">
               <RichContent
@@ -68,6 +68,37 @@
             >
               {{ notification.from_profile.name }}
             </span>
+          </div>
+          <div class="notification-time">
+            <div
+              v-if="isStatusNotification"
+              class="timeago"
+            >
+              <router-link
+                v-if="notification.status"
+                :to="{ name: 'conversation', params: { id: notification.status.id } }"
+                class="faint-link"
+              >
+                <Timeago
+                  :time="notification.created_at"
+                  :with-direction="true"
+                  :auto-update="240"
+                />
+              </router-link>
+            </div>
+            <div
+              v-else
+              class="timeago"
+            >
+              <span class="faint">
+                <Timeago
+                  :time="notification.created_at"
+                  :auto-update="240"
+                />
+              </span>
+            </div>
+          </div>
+          <div class="notification-action">
             {{ ' ' }}
             <span v-if="notification.type === 'like'">
               <FAIcon
@@ -138,33 +169,6 @@
               />
               {{ ' ' }}
               <small>{{ $t('notifications.poll_ended') }}</small>
-            </span>
-          </div>
-          <div
-            v-if="isStatusNotification"
-            class="timeago"
-          >
-            <router-link
-              v-if="notification.status"
-              :to="{ name: 'conversation', params: { id: notification.status.id } }"
-              class="faint-link"
-            >
-              <Timeago
-                :time="notification.created_at"
-                :with-direction="true"
-                :auto-update="240"
-              />
-            </router-link>
-          </div>
-          <div
-            v-else
-            class="timeago"
-          >
-            <span class="faint">
-              <Timeago
-                :time="notification.created_at"
-                :auto-update="240"
-              />
             </span>
           </div>
           <button

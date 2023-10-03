@@ -108,7 +108,7 @@
 
     .timeago {
       min-width: 3em;
-      text-align: right;
+      // text-align: right;
     }
   }
 
@@ -123,13 +123,12 @@
     position: relative;
     overflow: hidden;
     width: 100%;
-    flex: 1 1 0;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
 
-    .name-and-action {
-      flex: 1;
+    .notification-name {
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .notification-action {
       overflow: hidden;
       text-overflow: ellipsis;
     }
@@ -142,7 +141,7 @@
     }
 
     .timeago {
-      margin-right: 0.2em;
+      margin-left: 0.2em;
     }
 
     .status-content {
