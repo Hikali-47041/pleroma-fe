@@ -53,12 +53,18 @@
           <div class="notification-name">
             <!-- eslint-disable vue/no-v-html -->
             <bdi v-if="!!notification.from_profile.name_html">
+              <router-link
+                class="faint-link"
+                :title="notification.from_profile.screen_name_ui"
+                :to="userProfileLink"
+              >
               <RichContent
                 class="username"
                 :title="'@'+notification.from_profile.screen_name_ui"
                 :html="notification.from_profile.name_html"
                 :emoji="notification.from_profile.emoji"
               />
+              </router-link>
             </bdi>
             <!-- eslint-enable vue/no-v-html -->
             <span
