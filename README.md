@@ -22,7 +22,8 @@ To use Akkoma-FE in Akkoma, use the [frontend](https://docs.akkoma.dev/stable/ad
 
 ``` bash
 # install dependencies
-corepack enable
+pnpm install -g yarn
+# corepack enable
 yarn
 
 # serve with hot reload at localhost:8080
