@@ -102,7 +102,7 @@
         "text_limit": "1投稿の文字数上限",
         "title": "有効な機能",
         "upload_limit": "ファイルサイズの上限",
-        "who_to_follow": "おすすめユーザー"
+        "who_to_follow": "おすすめアカウント"
     },
     "file_type": {
         "audio": "オーディオ",
@@ -111,8 +111,8 @@
         "video": "ビデオ"
     },
     "finder": {
-        "error_fetching_user": "ユーザー探すのがエラーになっちゃった",
-        "find_user": "ユーザーを探す"
+        "error_fetching_user": "アカウント探すのがエラーになっちゃった",
+        "find_user": "アカウントを探す"
     },
     "general": {
         "apply": "てきよう",
@@ -138,7 +138,7 @@
         },
         "scope_in_timeline": {
             "direct": "ダイレクト",
-            "local": "ローカル限定: このインスタンスのユーザーだけが見えるよ",
+            "local": "ローカル限定: このインスタンスのアカウントだけが見えるよ",
             "private": "フォロワー限定",
             "public": "公開",
             "unlisted": "未収載"
@@ -163,7 +163,7 @@
         "favs_repeats": "リピートとふぁぼ",
         "follows": "新しいフォロワー",
         "load_older": "古いインタラクションを見る",
-        "moves": "ユーザーの引っ越し"
+        "moves": "アカウントの引っ越し"
     },
     "languages": {
         "ar": "アラビア語",
@@ -236,11 +236,11 @@
     "lists": {
         "create": "作る",
         "delete": "消す",
-        "following_only": "フォローしてるユーザーだけ",
+        "following_only": "フォローしてるアカウントだけ",
         "lists": "リスト",
         "new": "新しいリストを作る",
         "save": "OK",
-        "search": "ユーザー探索",
+        "search": "アカウント探索",
         "title": "リスト名"
     },
     "login": {
@@ -263,7 +263,7 @@
         "placeholder": " ",
         "recovery_code": "リカバリーコード",
         "register": "登録",
-        "username": "ユーザー名"
+        "username": "アカウント名"
     },
     "media_modal": {
         "counter": "{current} / {total}",
@@ -295,7 +295,7 @@
             "tags": "投稿制限を付ける"
         },
         "statuses": "投稿",
-        "users": "ユーザー"
+        "users": "アカウント"
     },
     "nav": {
         "about": "このインスタンスについて",
@@ -309,7 +309,7 @@
         "dms": "ダイレクトメッセージ",
         "friend_requests": "フォローリクエスト",
         "home_timeline": "ホーム",
-        "home_timeline_description": "フォローしてるユーザーからの投稿",
+        "home_timeline_description": "フォローしてるアカウントからの投稿",
         "interactions": "インタラクション",
         "lists": "リスト",
         "mentions": "通知",
@@ -322,8 +322,8 @@
         "timelines": "タイムライン",
         "twkn": "連合",
         "twkn_timeline_description": "全連合からの投稿",
-        "user_search": "ユーザーを探す",
-        "who_to_follow": "おすすめユーザー"
+        "user_search": "アカウントを探す",
+        "who_to_follow": "おすすめアカウント"
     },
     "notifications": {
         "broken_favorite": "投稿が見つからないよ。探してるよ…",
@@ -343,12 +343,12 @@
     "password_reset": {
         "check_email": "パスワードをリセットするためのリンクが記載されたメールが届いているか確認してねっ。",
         "forgot_password": "パスワードを忘れたの?",
-        "instruction": "メールアドレスまたはユーザー名を入力してねっ。パスワードをリセットするためのリンクを送るよ。",
+        "instruction": "メールアドレスまたはアカウント名を入力してねっ。パスワードをリセットするためのリンクを送るよ。",
         "password_reset": "パスワードリセット",
         "password_reset_disabled": "管理者に連絡してねっ!",
         "password_reset_required": "ログインするためにパスワードを初期化してねっ。",
         "password_reset_required_but_mailer_is_disabled": "パスワードの初期化が必要だけど、このインスタンスではメールが使えないから、管理者に連絡してねっ。",
-        "placeholder": "メールアドレスまたはユーザー名",
+        "placeholder": "メールアドレスまたはアカウント名",
         "return_home": "ホームページに戻る",
         "too_many_requests": "試行回数の制限に達したよ。しばらく時間を置いてから再試行してねっ。"
     },
@@ -381,8 +381,8 @@
         },
         "content_warning": "CW (かかなくてもいいよっ)",
         "default": "ただいま新玉川についたよ",
-        "direct_warning_to_all": "この投稿は、メンションされたすべてのユーザーが見れるよ。",
-        "direct_warning_to_first_only": "この投稿は、メッセージの最初にメンションされたユーザーだけが見れるよ。",
+        "direct_warning_to_all": "この投稿は、メンションされたすべてのアカウントが見れるよ。",
+        "direct_warning_to_first_only": "この投稿は、メッセージの最初にメンションされたアカウントだけが見れるよ。",
         "edit_remote_warning": "気をつけて: リモートインスタンスには、編集した投稿が見えないかもしれないよ",
         "edit_status": "編集",
         "edit_unsupported_warning": "編集しても投票やメンションが更新されないよ",
@@ -396,14 +396,14 @@
         "preview": "プレビュー",
         "preview_empty": "何もないよ",
         "scope": {
-            "direct": "ダイレクト: メンションされたユーザーだけに届くよ",
+            "direct": "ダイレクト: メンションされたアカウントだけに届くよ",
             "local": "ローカル限定: このインスタンス内だけに届くよ",
             "private": "フォロワー限定: フォロワーだけに届くよ",
             "public": "公開: ローカルタイムラインと、連合タイムラインにも届くよ",
             "unlisted": "未収載: ローカルタイムラインと、連合タイムラインには届けないよ"
         },
         "scope_notice": {
-            "local": "このインスタンスのユーザーしか見えないよ",
+            "local": "この投稿は、このインスタンスにいるアカウントだけが見えるよ",
             "private": "この投稿は、あなたのフォロワーだけが、見れるよ",
             "public": "この投稿は、誰でも見れるよ",
             "unlisted": "この投稿は、ローカルタイムラインと、連合タイムラインには、表示されないよ"
@@ -440,7 +440,7 @@
     },
     "remote_user_resolver": {
         "error": "見つからなかったよ。",
-        "remote_user_resolver": "リモートユーザーリゾルバ",
+        "remote_user_resolver": "リモートアカウントリゾルバ",
         "searching_for": "探しているよ"
     },
     "search": {
@@ -504,10 +504,10 @@
         "composing": "投稿",
         "confirm_dialogs": "確認する必要があるアクション",
         "confirm_dialogs_approve_follow": "フォローリクエストを受け入れること",
-        "confirm_dialogs_block": "ユーザーをブロックすること",
+        "confirm_dialogs_block": "アカウントをブロックすること",
         "confirm_dialogs_delete": "投稿を消すこと",
         "confirm_dialogs_deny_follow": "フォローリクエストを断ること",
-        "confirm_dialogs_mute": "ユーザーをミュートすること",
+        "confirm_dialogs_mute": "アカウントをミュートすること",
         "confirm_dialogs_repeat": "投稿をリピートすること",
         "confirm_dialogs_unfollow": "フォローをやめること",
         "confirm_new_password": "新しいパスワードの確認",
@@ -527,7 +527,7 @@
         "delete_account_description": "あなたのデータが消えて、アカウントが使えなくなるよ。",
         "delete_account_error": "アカウントを消すことが、できなかったかもしれないよ。インスタンスの管理者に、連絡してねっ。",
         "delete_account_instructions": "本当にアカウントを消してもいいなら、パスワードを入力してねっ。",
-        "disable_sticky_headers": "ヘッダーがついてこないようにするよ",
+        "disable_sticky_headers": "ヘッダーがついてこないようにする",
         "discoverable": "検索エンジンなどのサービスでこのアカウントを見つけること(クロール)を許可する",
         "domain_mutes": "ドメイン",
         "download_backup": "ダウンロード",
@@ -575,14 +575,14 @@
         "hide_isp": "インスタンス固有パネルを隠す",
         "hide_list_aliases_error_action": "閉じる",
         "hide_media_previews": "メディアのプレビューを隠す",
-        "hide_muted_posts": "ミュートしてるユーザーの投稿を隠す",
+        "hide_muted_posts": "ミュートしてるアカウントの投稿を隠す",
         "hide_muted_threads": "ミュートしてるスレを隠す",
         "hide_post_stats": "投稿の統計を隠す (例: ふぁぼの数)",
         "hide_shoutbox": "Shoutboxを表示しない",
         "hide_site_favicon": "トップバーのファビコンを隠す",
         "hide_site_name": "インスタンス名を隠す",
-        "hide_threads_with_blocked_users": "ブロックしてるユーザーをメンションする投稿を隠す",
-        "hide_user_stats": "ユーザーの統計を隠す (例: フォロワーの数)",
+        "hide_threads_with_blocked_users": "ブロックしてるアカウントをメンションする投稿を隠す",
+        "hide_user_stats": "アカウントの統計を隠す (例: フォロワーの数)",
         "hide_wallpaper": "インスタンスのバックグラウンドを隠す",
         "hide_wordfiltered_statuses": "単語フィルタに一致する投稿を隠す",
         "import_blocks_from_a_csv_file": "CSVファイルからブロックをインポートする",
@@ -605,10 +605,10 @@
         "mascot": "Mastodon FEのマスコット",
         "max_depth_in_thread": "スレッドの初期の最大レベル数",
         "max_thumbnails": "投稿に含まれるサムネイルの最大数",
-        "mention_link_bolden_you": "メンションされたら、強調する",
+        "mention_link_bolden_you": "メンションされてたら強調する",
         "mention_link_display": "メンションリンクの表示モード",
         "mention_link_display_full": "名前とドメイン、例:  {'@'}foo{'@'}example.org",
-        "mention_link_display_full_for_remote": "ローカルユーザー:  名前だけ、リモートユーザー:  名前とドメイン",
+        "mention_link_display_full_for_remote": "ローカルアカウント:  名前だけ、リモートアカウント:  名前とドメイン",
         "mention_link_display_short": "名前だけ、例: {'@'}foo",
         "mention_link_fade_domain": "ドメインを色あせる",
         "mention_link_show_avatar": "メンションの側にアイコンを表示",
@@ -655,12 +655,12 @@
         "new_alias_target": "アカウントエイリアスを作る",
         "new_email": "新しいメールアドレス",
         "new_password": "新しいパスワード",
-        "no_blocks": "ブロックはないよ",
-        "no_mutes": "ミュートはないよ",
+        "no_blocks": "誰もブロックしていないよ",
+        "no_mutes": "何もミュートしてないよ",
         "no_rich_text_description": "リッチテキストを使わない",
-        "notification_blocks": "ブロックしてるユーザーからの通知は、すべて止まるよ。",
-        "notification_mutes": "特定のユーザーからの通知を止めるには、ミュートしてねっ。",
-        "notification_setting_block_from_strangers": "フォローしていないユーザーからの通知を拒否する",
+        "notification_blocks": "ブロックしてるアカウントからの通知は、すべて止まるよ。",
+        "notification_mutes": "特定のアカウントからの通知を止めるには、ミュートしてねっ。",
+        "notification_setting_block_from_strangers": "フォローしていないアカウントからの通知を拒否する",
         "notification_setting_filters": "フィルター",
         "notification_setting_hide_if_cw": "CWがついていたら、プッシュ通知で投稿を隠す",
         "notification_setting_hide_notification_contents": "送った人と内容を、プッシュ通知に表示しない",
@@ -670,7 +670,7 @@
         "notification_visibility_follows": "フォロー",
         "notification_visibility_likes": "ふぁぼ",
         "notification_visibility_mentions": "メンション",
-        "notification_visibility_moves": "ユーザーの引っ越し",
+        "notification_visibility_moves": "アカウントの引っ越し",
         "notification_visibility_polls": "参加した投票の結果",
         "notification_visibility_repeats": "リピート",
         "notifications": "通知",
@@ -718,12 +718,12 @@
         "saving_err": "設定を保存できなかったよ…",
         "saving_ok": "設定を保存したよ",
         "scope_copy": "リプするとき、公開範囲をコピーする (DMの公開範囲は、常にコピーされるよ)",
-        "search_user_to_block": "ブロックしたいユーザーを探す",
-        "search_user_to_mute": "ミュートしたいユーザーを探す",
+        "search_user_to_block": "ブロックしたいアカウントを探す",
+        "search_user_to_mute": "ミュートしたいアカウントを探す",
         "security": "セキュリティ",
         "security_tab": "セキュリティ",
-        "sensitive_by_default": "はじめから投稿をセンシティブとして設定",
-        "sensitive_if_subject": "投稿に警告をついたらNSFWにする",
+        "sensitive_by_default": "はじめから投稿をNSFWとして設定",
+        "sensitive_if_subject": "投稿にCWをつけたらNSFWにする",
         "set_new_avatar": "新しいアイコンを設定する",
         "set_new_mascot": "マスコットを更新",
         "set_new_profile_background": "新しいプロフィールのバックグラウンドを設定する",
@@ -735,11 +735,11 @@
         "settings_profile_creation": "プロファイル作る",
         "settings_profile_creation_new_name_label": "プロファイル名",
         "settings_profile_creation_submit": "作る",
-        "settings_profile_currently": "現在利用されてるよ: {name} (バージョン {version})",
+        "settings_profile_currently": "現在利用してる: {name} (バージョン {version})",
         "settings_profile_delete": "消す",
         "settings_profile_delete_confirm": "プロファイルを消すの?",
         "settings_profile_force_sync": "同期する",
-        "settings_profile_in_use": "利用されてるよ",
+        "settings_profile_in_use": "利用してるよ",
         "settings_profile_use": "利用",
         "settings_profiles_refresh": "リロード",
         "settings_profiles_show": "全てのプロファイルを表示",
@@ -845,8 +845,8 @@
                 "blur": "ぼかし",
                 "component": "コンポーネント",
                 "components": {
-                    "avatar": "ユーザーアイコン (プロフィール)",
-                    "avatarStatus": "ユーザーアイコン (投稿)",
+                    "avatar": "アカウントアイコン (プロフィール)",
+                    "avatarStatus": "アカウントアイコン (投稿)",
                     "button": "ボタン",
                     "buttonHover": "ボタン (ホバー)",
                     "buttonPressed": "ボタン (押されているとき)",
@@ -900,8 +900,8 @@
             }
         },
         "subject_input_always_show": "警告入力をいつでも表示する",
-        "subject_line_behavior": "リプするとき警告をコピーする",
-        "subject_line_email": "メール風: \"re: 警告\"",
+        "subject_line_behavior": "リプするときCWをコピーする",
+        "subject_line_email": "メール風: \"re: CW\"",
         "subject_line_mastodon": "Mastodon風: そのままコピー",
         "subject_line_noop": "コピーしない",
         "text": "文字",
@@ -925,10 +925,10 @@
         "use_at_icon": "{'@'}マークをアイコンにする",
         "use_contain_fit": "画像のサムネイルを、切り抜かない",
         "use_one_click_nsfw": "NSFWなファイルを1クリックで開く",
-        "user_mutes": "ユーザー",
-        "user_profile_default_tab": "ユーザープロファイルの初期タブ",
-        "user_profiles": "ユーザーのプロファイル",
-        "user_settings": "ユーザー設定",
+        "user_mutes": "アカウント",
+        "user_profile_default_tab": "アカウントプロファイルの初期タブ",
+        "user_profiles": "アカウントのプロファイル",
+        "user_settings": "アカウント設定",
         "user_accepts_direct_messages_from": "DMを受け入れる範囲",
         "user_accepts_direct_messages_from_everybody": "みんな受け入れる",
         "user_accepts_direct_messages_from_nobody": "だれも受け入れない",
@@ -975,7 +975,7 @@
         "favorites": "ふぁぼ",
         "hide_attachment": "ファイルを隠す",
         "hide_content": "隠す",
-        "hide_full_subject": "警告を隠す",
+        "hide_full_subject": "CWを隠す",
         "many_attachments": "ファイルは{number}件があるよ",
         "mentions": "メンション",
         "move_down": "右に移動",
@@ -1007,7 +1007,7 @@
         "show_attachment_description": "説明の略を見る",
         "show_attachment_in_modal": "ファイルをウインドウで見る",
         "show_content": "もっと見る",
-        "show_full_subject": "警告を見る",
+        "show_full_subject": "CWを見る",
         "show_only_conversation_under_this": "この投稿を返信する投稿だけ",
         "status_deleted": "この投稿は消されたよ",
         "status_unavailable": "利用できないよ",
@@ -1078,7 +1078,7 @@
         "reject_follow_request": "フォローリクエストを拒否",
         "repeat": "リピート",
         "reply": "お返事",
-        "user_settings": "ユーザー設定"
+        "user_settings": "アカウント設定"
     },
     "upload": {
         "error": {
@@ -1100,7 +1100,7 @@
             "activate_account": "アカウントをアクティブにする",
             "deactivate_account": "アカウントをアクティブでなくする",
             "delete_account": "アカウントを消す",
-            "delete_user": "ユーザーを消す",
+            "delete_user": "アカウントを消す",
             "delete_user_data_and_deactivate_confirmation": "本当に消すの? アカウントを消したら、絶対に取り返せないよ…",
             "disable_any_subscription": "フォローされないようにする",
             "disable_remote_subscription": "他のインスタンスからフォローされないようにする",
@@ -1146,7 +1146,7 @@
         "followees": "フォロー",
         "followers": "フォロワー",
         "followed_tags": "フォローしているハッシュタグ",
-        "followed_users": "フォローしているユーザー",
+        "followed_users": "フォローしているアカウント",
         "following": "フォローしてるよ!",
         "follows_you": "フォローされたよ!",
         "hidden": "隠す",
@@ -1165,7 +1165,7 @@
         "mute_confirm": "{user}をミュートするの?",
         "mute_confirm_accept_button": "ミュート",
         "mute_confirm_cancel_button": "キャンセル",
-        "mute_confirm_title": "ユーザーをミュート",
+        "mute_confirm_title": "アカウントをミュート",
         "mute_domain": "ドメインをブロック",
         "mute_progress": "ミュートしてるよ…",
         "muted": "ミュートしてるよ",
@@ -1195,7 +1195,7 @@
     "user_profile": {
         "profile_does_not_exist": "ごめんね。このプロフィールは存在しないよ…",
         "profile_loading_error": "ごめんね。プロフィールの読み込みがエラーになっちゃった…",
-        "timeline_title": "ユーザータイムライン",
+        "timeline_title": "アカウントタイムライン",
         "field_validated": "リンク認証済"
     },
     "user_reporting": {
@@ -1209,6 +1209,6 @@
     },
     "who_to_follow": {
         "more": "くわしく",
-        "who_to_follow": "おすすめユーザー"
+        "who_to_follow": "おすすめアカウント"
     }
 }
