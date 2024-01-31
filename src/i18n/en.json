@@ -380,6 +380,7 @@
             "text/x.misskeymarkdown": "MFM"
         },
         "content_warning": "Content Warning (optional)",
+        "toggle_content_warning": "Toggle content warning",
         "default": "Just arrived at Luna Nova Academy",
         "direct_warning_to_all": "This post will be visible to all the mentioned users.",
         "direct_warning_to_first_only": "This post will only be visible to the mentioned users at the beginning of the message.",
@@ -922,7 +923,6 @@
         "upload_a_photo": "Upload a photo",
         "useStreamingApi": "Receive posts and notifications real-time",
         "useStreamingApiWarning": "It's cool use it. If it breaks refresh I guess?",
-        "use_at_icon": "Display {'@'} symbol as an icon instead of text",
         "use_contain_fit": "Don't crop the attachment in thumbnails",
         "use_one_click_nsfw": "Open NSFW attachments with just one click",
         "user_mutes": "Users",
@@ -1062,6 +1062,7 @@
         "show_new": "Show new",
         "socket_broke": "Realtime connection lost: CloseEvent code {0}",
         "socket_reconnected": "Realtime connection established",
+        "follow_tag": "Follow hashtag",
         "unfollow_tag": "Unfollow hashtag",
         "up_to_date": "Up-to-date"
     },
