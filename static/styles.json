@@ -1,6 +1,6 @@
 {
-  "Hikali-Dark": "/static/themes/hikali-dark.json",
-  "Hikali-Light(beta)": "/static/themes/hikali-light.json",
+  "lidark": "/static/themes/lidark.json",
+  "lilight(beta)": "/static/themes/lilight.json",
   "pleroma-dark": "/static/themes/pleroma-dark.json",
   "pleroma-light": "/static/themes/pleroma-light.json",
   "pleroma-amoled": [ "Pleroma Dark AMOLED", "#000000", "#111111", "#b0b0b1", "#d8a070", "#aa0000", "#0fa00f", "#0095ff", "#d59500"],
