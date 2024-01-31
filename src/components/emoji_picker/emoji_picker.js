@@ -116,7 +116,7 @@ const EmojiPicker = {
           text: this.$t('emoji.unicode'),
           first: {
             imageUrl: '',
-            replacement: '🥴'
+            replacement: '🥲'
           },
           emojis: this.filterByKeyword(standardEmojis)
         }
