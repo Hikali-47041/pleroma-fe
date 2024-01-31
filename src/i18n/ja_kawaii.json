@@ -380,7 +380,7 @@
             "text/x.misskeymarkdown": "MFM"
         },
         "content_warning": "CW (かかなくてもいいよっ)",
-        "default": "世界が…どうか私を忘れてくれますように…",
+        "default": "ただいま新玉川についたよ",
         "direct_warning_to_all": "この投稿は、メンションされたすべてのユーザーが見れるよ。",
         "direct_warning_to_first_only": "この投稿は、メッセージの最初にメンションされたユーザーだけが見れるよ。",
         "edit_remote_warning": "気をつけて: リモートインスタンスには、編集した投稿が見えないかもしれないよ",
